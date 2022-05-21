@@ -1,0 +1,35 @@
+#parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 40vh;
+  height: 20vw;
+  background-color: #4169e1;
+ 
+}
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+#enfant {
+  width: 5em;
+  height: 5em;
+  background-color: azure;
+  border-radius: 50%;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+span{
+    font-weight: 800;
+}

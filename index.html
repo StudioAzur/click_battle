@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="icon" href="./assets/images/wavelopper.png" />
-    <title>Document</title>
-</head>
-<body>
-<script src="./assets/js/index.js"></script>
-</body>
+    <title>La Bataille des Clics</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Battle of click</h1>
+      </header>
+      <h2>Parent</h2>
+      <div id="parent">
+        <a href="#">
+          <p>Enfant</p>
+          <div id="enfant"></div>
+        </a>
+      </div>
+      <p>
+        Nombre de clic(s) sur l'élément parent : <span id="nbClickParent"></span>
+      </p>
+      <p>
+        Nombre de clic(s) sur l'élément enfant : <span id="nbClickEnfant"></span>
+      </p>
+      <button id="restart">Recommencer la bataille</button>
+    </main>
+    <script src="./assets/js/index.js"></script>
+  </body>
 </html>
